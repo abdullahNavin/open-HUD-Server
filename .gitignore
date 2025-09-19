@@ -1,0 +1,17 @@
+node_modules/
+dist/
+build/
+.env
+.DS_Store
+npm-debug.log
+yarn-error.log
+.vscode/
+.idea/
+coverage/
+*.log
+*.tmp
+*.bak
+*.swp
+*.pid
+*.seed
+*.tgz
