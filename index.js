@@ -8,7 +8,7 @@ const app = express()
 app.use(cors());
 app.use(express.json());
 
-const newsRoutes = require("./routers/NewsRouters");
+const newsRoutes = require("./src/routers/NewsRouters");
 
 // Routes
 app.use("/api/news", newsRoutes);
