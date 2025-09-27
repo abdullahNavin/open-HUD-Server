@@ -15,10 +15,7 @@ app.use("/api/news", newsRoutes);
 
 // MongoDB Connection
 mongoose
-  .connect(process.env.DB_URL, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect(process.env.DB_URL)
   .then(() => {
     console.log("✅ MongoDB Connected");
   })
